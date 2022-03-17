@@ -6,11 +6,11 @@ Program obliczający wartość liczby π
 1. Instalacja [node](https://nodejs.org/en/)
 2. Opcjonalnie [yarn](https://yarnpkg.com/getting-started/install)
 3. Instalacja zależności:
-* npm:
+* Instalowanie zależności za pomocą _npm_:
 ```bash
 npm install
 ```
-$ * yarn
+* Instalowanie zależności za pomocą _yarn_
 ```bash
 $ yarn install
 ```
