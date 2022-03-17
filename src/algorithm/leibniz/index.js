@@ -4,7 +4,7 @@ export default function (precision, attempts) {
   attempts = attempts ? attempts : BigInt(precision) * 1000000n;
   const limit = new Date().getTime() + 3600 * 1000;
   let pi = new bigDecimal(1);
-  for (var i = 0n; i < attempts; ++i) {
+  for (let i = 0n; i < attempts; ++i) {
     const sign = i === 0n || i % 2n === 0n ? -1 : 1;
     const nextDecimal = new bigDecimal(1)
       .divide(

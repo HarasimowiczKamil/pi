@@ -18,7 +18,7 @@ $ yarn install
 ## Przykładowe uruchomienie
 
 ```bash
-$ node index.js
-$ node index.js 1000
-$ node index.js 15 -a special
+$ node index.js # pokazuje stronę pomocy
+$ node index.js 1000 # wylicza pi z dokładnością do 1000 znaku po przecinku
+$ node index.js 15 -a special # wylicza pi do 15 miejsca po przecinku korzystając ze specjalnego algorytmu
 ```
